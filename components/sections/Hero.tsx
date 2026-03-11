@@ -119,12 +119,12 @@ export default function Hero() {
             animate={stage >= 2 ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.75, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
           >
-            ИИ-администратор,{" "}
+            ИИ–Менеджер для,{" "}
             <span
               className="text-sx-accent"
               style={{ textShadow: "0 0 40px rgba(0,240,144,0.28)" }}
             >
-              который отвечает
+              бизнеса услуг:
             </span>{" "}
             клиентам и записывает их на услуги
           </motion.h1>
@@ -135,7 +135,7 @@ export default function Hero() {
             animate={stage >= 2 ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
           >
-            Отвечает на звонки и сообщения, записывает клиентов в CRM и работает вместо администратора — без пропущенных обращений.
+            Мгновенно ответит на все обращения и доведет клиента до записи.
           </motion.p>
 
           <motion.div
