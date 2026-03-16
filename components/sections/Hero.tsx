@@ -119,14 +119,14 @@ export default function Hero() {
             animate={stage >= 2 ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.75, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
           >
-            ИИ—Менеджер{" "}
+            ИИ-Менеджер для{" "}
             <span
               className="text-sx-accent"
               style={{ textShadow: "0 0 40px rgba(0,240,144,0.28)" }}
             >
-              для бизнеса услуг:
+             бизнеса услуг:
             </span>{" "}
-            клиентам и записывает их на услуги
+            ответит клиентам и запишет на услуги
           </motion.h1>
 
           <motion.p
